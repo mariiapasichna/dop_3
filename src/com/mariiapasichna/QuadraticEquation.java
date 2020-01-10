@@ -11,7 +11,7 @@ public class QuadraticEquation {
         this.c = c;
     }
 
-    public void getResult() {
+    public void printResult() {
         if (isQuadratic()) {
             double discriminant = Math.pow(b, 2) - (4 * a * c);
             if (discriminant < 0) {

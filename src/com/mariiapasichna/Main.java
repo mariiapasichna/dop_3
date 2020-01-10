@@ -16,6 +16,6 @@ public class Main {
         double c = scanner.nextDouble();
 
         QuadraticEquation equation = new QuadraticEquation(a, b, c);
-        equation.getResult();
+        equation.printResult();
     }
 }
